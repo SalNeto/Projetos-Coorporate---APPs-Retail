@@ -1,0 +1,19 @@
+# Defina o diretório onde os arquivos estão localizados
+$directory = "C:\Users\SalNet\Documents\Doc-Projeto-Synchro-4Me\062024\"
+
+# Obtenha todos os arquivos na pasta
+$files = Get-ChildItem -Path $directory -File
+
+# Loop para renomear cada arquivo
+foreach ($file in $files) {
+    # Verifique se o nome do arquivo contém "xml.processing.completed"
+    if ($file.Name -like "*xml.processing.completed*") {
+        # Substitua "xml.processing.completed" por uma string vazia
+        $newName = $file.Name -replace "processing.completed", ""
+        
+        # Renomeie o arquivo
+        Rename-Item -Path $file.FullName -NewName $newName
+    }
+}
+
+Write-Host "Processo de renomeação concluído."

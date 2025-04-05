@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leitura_XML_NFe", "Leitura_XML_NFe\Leitura_XML_NFe.csproj", "{AA0F449A-1E79-4C6E-B6A3-AB94C3CAD00B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA0F449A-1E79-4C6E-B6A3-AB94C3CAD00B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA0F449A-1E79-4C6E-B6A3-AB94C3CAD00B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA0F449A-1E79-4C6E-B6A3-AB94C3CAD00B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA0F449A-1E79-4C6E-B6A3-AB94C3CAD00B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {554CD483-7F68-415B-B1AC-C516040D853F}
+	EndGlobalSection
+EndGlobal

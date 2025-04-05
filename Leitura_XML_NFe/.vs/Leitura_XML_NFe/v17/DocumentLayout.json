@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projetos Coorporate\\Leitura_XML_NFe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA0F449A-1E79-4C6E-B6A3-AB94C3CAD00B}|Leitura_XML_NFe\\Leitura_XML_NFe.csproj|c:\\projetos coorporate\\leitura_xml_nfe\\leitura_xml_nfe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA0F449A-1E79-4C6E-B6A3-AB94C3CAD00B}|Leitura_XML_NFe\\Leitura_XML_NFe.csproj|solutionrelative:leitura_xml_nfe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projetos Coorporate\\Leitura_XML_NFe\\Leitura_XML_NFe\\Program.cs",
+              "RelativeDocumentMoniker": "Leitura_XML_NFe\\Program.cs",
+              "ToolTip": "C:\\Projetos Coorporate\\Leitura_XML_NFe\\Leitura_XML_NFe\\Program.cs",
+              "RelativeToolTip": "Leitura_XML_NFe\\Program.cs",
+              "ViewState": "AQIAAOoAAAAAAAAAAAAwwCoAAADKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T19:22:53.053Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

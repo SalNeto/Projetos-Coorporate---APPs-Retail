@@ -1,0 +1,24 @@
+$directoryPath = "C:\Temp_Arq_Calc_Tax\Arq_Gamma\Arq_Masterdata"
+
+# Verifica se o diretório existe
+if (-Not (Test-Path -Path $directoryPath)) {
+    Write-Output "O diretório especificado não existe: $directoryPath"
+    exit
+}
+
+# Obtém todos os arquivos no diretório
+Get-ChildItem -Path $directoryPath -File | ForEach-Object {
+    $oldName = $_.Name
+    $newName = $oldName -replace "Masterdata", ""
+
+    if ($oldName -ne $newName) {
+        # Renomeia o arquivo
+        $oldFilePath = $_.FullName
+        $newFilePath = Join-Path -Path $directoryPath -ChildPath $newName
+        Rename-Item -Path $oldFilePath -NewName $newFilePath -ErrorAction Stop
+
+        Write-Output "Renomeado: $oldName -> $newName"
+    } else {
+        Write-Output "Nenhuma alteração necessária para: $oldName"
+    }
+}

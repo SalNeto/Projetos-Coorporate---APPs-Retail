@@ -1,0 +1,1 @@
+net stop Upload_NFe_Cone
