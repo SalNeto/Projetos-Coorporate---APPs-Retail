@@ -1,0 +1,9 @@
+[submodule "Aplicador - TaxRulePro/Captura-de-Regras-Fiscais-na-Sovos"]
+	path = Aplicador - TaxRulePro/Captura-de-Regras-Fiscais-na-Sovos
+	url = https://github.com/SalNeto/Projetos-Coorporate---APPs-Retail.git
+[submodule "Aplicador - TaxRulePro/TaxRulePro"]
+	path = Aplicador - TaxRulePro/TaxRulePro
+	url = https://github.com/SalNeto/Projetos-Coorporate---APPs-Retail.git
+[submodule "Integrador/Upload_NFe_Cone"]
+	path = Integrador/Upload_NFe_Cone
+	url = https://github.com/SalNeto/Projetos-Coorporate---APPs-Retail.git
